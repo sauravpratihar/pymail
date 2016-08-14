@@ -2,15 +2,15 @@ from datetime import datetime
 
 # file settings
 #create empty log file and locate below
-LOG_FILENAME = '/home/zombie/Desktop/contri/python-mailer/pymailer.log'
+LOG_FILENAME = 'location'
 
 #create empty pymailer.csv file and locate below
 
-CSV_RETRY_FILENAME = '/home/zombie/Desktop/contri/python-mailer/pymailer.csv'
+CSV_RETRY_FILENAME = 'location'
 
 #locate the folder for save the stat files
 
-STATS_FILE = '/home/zombie/Desktop/contri/python-mailer/pymailer-%s.stat' % str(datetime.now()).replace(' ', '-').replace(':', '-').replace('.', '-')
+STATS_FILE = 'location/pymailer-%s.stat' % str(datetime.now()).replace(' ', '-').replace(':', '-').replace('.', '-')
 
 # smtp settings
 SMTP_HOST = 'xyz'
