@@ -29,8 +29,8 @@ eg: ./pymailer -s /home/file.html /home/file.csv 'test'
 
 <h3>CSV File example:</h3>
 
-name,email
-Someones Name,someone@example.com
-Someone Else,someone.else@example.com
+name,email<br>
+Someones Name,someone@example.com<br>
+Someone Else,someone.else@example.com<br>
 
 OR you can create in excel too.
